@@ -1,0 +1,28 @@
+* fetch-kifu
+* a simple binary utilty that fetches a random baduk game record from gokifu.com
+
+I made this program to build something in golang and learn the language. But
+I ended up using this little program to get a game to watch, so maybe
+someone else will find it useful to.
+
+Well, and i think it's just [[neat][https://youtu.be/PAAkCSZUG1c?t=12s]] that there's go
+game sofware made in go language.
+
+If you happen to have a golang compiler on your machine and want to build it
+yourself, just run the following command in the cloned repo:
+
+#+BEGIN_CODE
+go install main.go
+#+END_CODE
+
+If you don't have a go compiler but want to, head
+[[here][https://golang.org]] and get one.
+
+If you just want the binary that fetches games - it's there, built for
+windows/linux/mac.
+
+The source code is heavily commented, and i tried to cram as much features
+and useful syntactic sugar as possible - a potential reference to anyone
+learning the language.
+
+I'm learning it myself right now, so i would love any comments on the code.
