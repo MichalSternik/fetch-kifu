@@ -11,9 +11,9 @@ language.
 If you happen to have a golang compiler on your machine and want to build it
 yourself, just run the following command in the cloned repo:
 
-#+BEGIN_CODE
+#+BEGIN_EXAMPLE
 go install main.go
-#+END_CODE
+#+END_EXAMPLE
 
 If you don't have a go compiler but want to, head [[https://golang.org][here]] and get
 one.
